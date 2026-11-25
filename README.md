@@ -1,6 +1,7 @@
 # Markivian LM in go
 This repository contains the function (markov) to create a text using a rudimental LM model.
 The program takes in a txt file. It asks for the k, the lenght of characters previous to the current one to take as reference, and the desired lenght of the outputted text.
+The output is a slice of runes, it's best reccommended to convert it to string before printing
 
 # Using the function in a program
 The function can be called in go just like any other function.
